@@ -13,12 +13,29 @@ Rent-a-Car is a modern web application designed to provide a seamless car rental
 - User dashboard for booking history
 - Password management functionality
 
+### Main Homepage
 ![Homepage](screenshots/homepage.png)
+The main landing page showcases our premium car selection with an elegant design and intuitive navigation menu.
+
+### Homepage Features
 ![Homepage Alternative View](screenshots/homepage2.png)
+Alternative view of the homepage highlighting special offers and featured vehicles available for rent.
+
+### Fleet Gallery
 ![Our Fleet](screenshots/Our%20Fleet.png)
+Comprehensive display of our diverse vehicle fleet, categorized by type and featuring detailed specifications.
+
+### About Us
 ![About Screen](screenshots/About%20Screen.png)
+Learn about our company's history, mission, and commitment to providing exceptional car rental services.
+
+### Contact Information
 ![Contact Us](screenshots/Contact%20Us%20screen.png)
+Easy-to-use contact form and comprehensive information about our locations and support channels.
+
+### Frequently Asked Questions
 ![FAQs](screenshots/FAQs.png)
+Detailed answers to common questions about our rental process, policies, and services.
 
 ### Authentication & Security
 - Secure user registration and login
@@ -26,7 +43,9 @@ Rent-a-Car is a modern web application designed to provide a seamless car rental
 - Session-based authentication
 - Protected API endpoints
 
+### Data Security Implementation
 ![Customer Data Security](screenshots/Customer%20Data%20with%20Password%20Hashing.png)
+Demonstration of our robust security measures, including password hashing and secure data storage.
 
 ### Booking System
 - Real-time car availability check
@@ -35,8 +54,13 @@ Rent-a-Car is a modern web application designed to provide a seamless car rental
 - Booking confirmation system
 - Booking history tracking
 
+### Booking Interface
 ![Booking Interface](screenshots/Booking%20Screen.png)
+User-friendly booking interface with real-time availability checking and seamless reservation process.
+
+### Real-time Booking Management
 ![Real-time Booking Data](screenshots/Dummy%20Book%20data%20in%20database%20in%20real%20time.png)
+Live demonstration of our booking management system showing real-time updates and reservation tracking.
 
 ### Administrative Features
 - Car fleet management

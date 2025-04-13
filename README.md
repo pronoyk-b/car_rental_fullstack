@@ -13,11 +13,20 @@ Rent-a-Car is a modern web application designed to provide a seamless car rental
 - User dashboard for booking history
 - Password management functionality
 
+![Homepage](screenshots/homepage.png)
+![Homepage Alternative View](screenshots/homepage2.png)
+![Our Fleet](screenshots/Our%20Fleet.png)
+![About Screen](screenshots/About%20Screen.png)
+![Contact Us](screenshots/Contact%20Us%20screen.png)
+![FAQs](screenshots/FAQs.png)
+
 ### Authentication & Security
 - Secure user registration and login
 - Password hashing using bcrypt
 - Session-based authentication
 - Protected API endpoints
+
+![Customer Data Security](screenshots/Customer%20Data%20with%20Password%20Hashing.png)
 
 ### Booking System
 - Real-time car availability check
@@ -25,6 +34,9 @@ Rent-a-Car is a modern web application designed to provide a seamless car rental
 - Secure payment processing
 - Booking confirmation system
 - Booking history tracking
+
+![Booking Interface](screenshots/Booking%20Screen.png)
+![Real-time Booking Data](screenshots/Dummy%20Book%20data%20in%20database%20in%20real%20time.png)
 
 ### Administrative Features
 - Car fleet management

@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent-a-Car - Premium Car Rental Service</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>Rent-a-Car</h1>
+        </div>
+        <button class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#cars" onclick="showFleetModal()">Our Fleet</a></li>
+            <li><a href="#rental" onclick="showRentalFormModal()">Rent Now</a></li>
+            <li><a href="#about" onclick="showAboutModal()">About</a></li>
+            <li><a href="#contact" onclick="showContactModal()">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="homepage_slideshow/grahame-jenkins-p7tai9P7H-s-unsplash.jpg" alt="Luxury Car">
+                <div class="slide-caption">
+                    <h2>Experience Luxury</h2>
+                    <p>Drive your dreams today</p>
+                    <button class="hero-cta-btn" onclick="showRentalFormModal()">Rent Now</button>
+                </div>
+            </div>
+            <div class="slide fade">
+                <img src="homepage_slideshow/joey-banks-YApiWyp0lqo-unsplash.jpg" alt="Sports Car">
+                <div class="slide-caption">
+                    <h2>Performance Redefined</h2>
+                    <p>Feel the power of premium engineering</p>
+                    <button class="hero-cta-btn" onclick="showRentalFormModal()">Rent Now</button>
+                </div>
+            </div>
+            <div class="slide fade">
+                <img src="homepage_slideshow/jon-koop-khYVyHiNZo0-unsplash.jpg" alt="Classic Car">
+                <div class="slide-caption">
+                    <h2>Classic Elegance</h2>
+                    <p>Timeless designs for the discerning driver</p>
+                    <button class="hero-cta-btn" onclick="showRentalFormModal()">Rent Now</button>
+                </div>
+            </div>
+            <div class="slide fade">
+                <img src="homepage_slideshow/nate-johnston-PcbJL9CYSXs-unsplash.jpg" alt="Modern Car">
+                <div class="slide-caption">
+                    <h2>Modern Innovation</h2>
+                    <p>Cutting-edge technology at your fingertips</p>
+                    <button class="hero-cta-btn" onclick="showRentalFormModal()">Rent Now</button>
+                </div>
+            </div>
+            <div class="slide fade">
+                <img src="homepage_slideshow/tyler-clemmensen-d1Jum1vVLew-unsplash.jpg" alt="Exotic Car">
+                <div class="slide-caption">
+                    <h2>Exotic Selection</h2>
+                    <p>Stand out with our premium collection</p>
+                    <button class="hero-cta-btn" onclick="showRentalFormModal()">Rent Now</button>
+                </div>
+            </div>
+            <div class="slide fade">
+                <img src="homepage_slideshow/youssef-d-DkGUn0Y1VzA-unsplash.jpg" alt="Luxury SUV">
+                <div class="slide-caption">
+                    <h2>Luxury Meets Utility</h2>
+                    <p>Premium SUVs for any adventure</p>
+                    <button class="hero-cta-btn" onclick="showRentalFormModal()">Rent Now</button>
+                </div>
+            </div>
+            <button class="prev" onclick="changeSlide(-1)">❮</button>
+            <button class="next" onclick="changeSlide(1)">❯</button>
+        </div>
+        <div class="dots-container"></div>
+    </section>
+
+    <!-- Cities Section -->
+    <section id="cities" class="cities-section">
+        <div class="container">
+            <h2 class="section-title">Rent-a-Car around all over the country</h2>
+            <div class="cities-grid">
+                <div class="city-card">
+                    <img src="cities/london.png" alt="London">
+                    <h3>London</h3>
+                </div>
+                <div class="city-card">
+                    <img src="cities/manchester.png" alt="Manchester">
+                    <h3>Manchester</h3>
+                </div>
+                <div class="city-card">
+                    <img src="cities/birmingham.png" alt="Birmingham">
+                    <h3>Birmingham</h3>
+                </div>
+                <div class="city-card">
+                    <img src="cities/bristol.png" alt="Bristol">
+                    <h3>Bristol</h3>
+                </div>
+                <div class="city-card">
+                    <img src="cities/cambridge.png" alt="Cambridge">
+                    <h3>Cambridge</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What documents do I need to rent a car?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>To rent a car, you'll need:<br>
+                           - A valid driving license<br>
+                           - Proof of identity (passport or ID card)<br>
+                           - Credit card for security deposit<br>
+                           - Proof of address (utility bill or bank statement)</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What is your cancellation policy?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Free cancellation up to 48 hours before pickup. Cancellations within 48 hours may incur a charge of one day's rental fee.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Is insurance included in the rental price?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Basic insurance is included in all rentals. Additional coverage options are available at pickup for enhanced protection.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What is your fuel policy?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We operate a full-to-full fuel policy. Cars are provided with a full tank, and should be returned full to avoid refueling charges.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you offer one-way rentals?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, one-way rentals are available between our major city locations. Additional fees may apply based on the distance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rental Form Modal -->
+    <div id="rentalFormModal" class="modal rental-modal">
+        <div class="modal-content rental-modal-content">
+            <span class="close">&times;</span>
+            <h2 class="section-title">Rent Your Dream Car</h2>
+            <div class="rental-form-container">
+                <form id="rental-form" class="rental-form">
+                    <div class="form-group">
+                        <label for="fullName">Full Name*</label>
+                        <input type="text" id="fullName" name="fullName" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="address">Full Address*</label>
+                        <textarea id="address" name="address" required></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number*</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="license">Driving License*</label>
+                        <div class="license-container">
+                            <select id="license" name="license" required>
+                                <option value="">Select Option</option>
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
+                            </select>
+                            <div id="license-upload" class="license-upload hidden">
+                                <label for="licenseFile" class="upload-label">
+                                    <i class="fas fa-upload"></i>
+                                    <span>Upload License</span>
+                                </label>
+                                <input type="file" id="licenseFile" name="licenseFile" accept="image/*,.pdf">
+                                <span id="fileName" class="file-name"></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="carModel">Select Car Model*</label>
+                        <select id="carModel" name="carModel" required>
+                            <option value="">Select a Car</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group date-group">
+                        <div>
+                            <label for="pickupDate">Pickup Date*</label>
+                            <input type="date" id="pickupDate" name="pickupDate" required>
+                        </div>
+                        <div>
+                            <label for="returnDate">Return Date*</label>
+                            <input type="date" id="returnDate" name="returnDate" required>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="book-now-btn">Book Now</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Booking Summary Modal -->
+    <div id="summaryModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Booking Summary</h2>
+            <div id="summaryContent">
+                <div class="summary-section">
+                    <h3>Customer Details</h3>
+                    <p id="summaryName"></p>
+                    <p id="summaryAddress"></p>
+                    <p id="summaryPhone"></p>
+                </div>
+                <div class="summary-section">
+                    <h3>Car Details</h3>
+                    <p id="summaryCar"></p>
+                    <p id="summaryDates"></p>
+                </div>
+                <div class="summary-section">
+                    <h3>Price Details</h3>
+                    <p id="summaryDays"></p>
+                    <p id="summaryRate"></p>
+                    <p id="summaryTotal" class="total"></p>
+                </div>
+            </div>
+            <button id="confirmBooking" class="confirm-btn">Confirm Booking</button>
+        </div>
+    </div>
+
+    <!-- Fleet Modal -->
+    <div id="fleetModal" class="modal fleet-modal">
+        <div class="modal-content fleet-modal-content">
+            <span class="close">&times;</span>
+            <h2 class="section-title">Our Premium Fleet</h2>
+            <div class="fleet-categories">
+                <div class="category-tabs">
+                    <button class="category-tab active" data-category="all">All Cars</button>
+                    <button class="category-tab" data-category="luxury">Luxury Fleet</button>
+                    <button class="category-tab" data-category="sports">Sports Fleet</button>
+                    <button class="category-tab" data-category="suv">SUV Fleet</button>
+                    <button class="category-tab" data-category="economy">Economy Fleet</button>
+                </div>
+                <div class="fleet-grid" id="fleetGrid">
+                    <!-- Cars will be dynamically loaded here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Modal -->
+    <div id="aboutModal" class="modal about-modal">
+        <div class="modal-content about-modal-content">
+            <span class="close">&times;</span>
+            <h2 class="section-title">About Rent-a-Car</h2>
+            <div class="about-content">
+                <div class="about-section">
+                    <h3>Your Premium Car Rental Service in the UK</h3>
+                    <p>Founded in 1995 in London, Rent-a-Car has grown to become one of the UK's most trusted premium car rental services. With over 25 years of experience, we've built our reputation on exceptional service, an extensive fleet of luxury vehicles, and a commitment to customer satisfaction.</p>
+                </div>
+                
+                <div class="about-section">
+                    <h3>Our Mission</h3>
+                    <p>To provide our customers with an unparalleled car rental experience, combining luxury vehicles with outstanding service and competitive prices. We strive to make every journey memorable, whether it's a business trip or a leisure adventure.</p>
+                </div>
+                
+                <div class="about-section">
+                    <h3>Why Choose Us?</h3>
+                    <ul class="about-list">
+                        <li><i class="fas fa-check"></i> Premium fleet of latest model vehicles</li>
+                        <li><i class="fas fa-check"></i> Nationwide coverage with locations in major UK cities</li>
+                        <li><i class="fas fa-check"></i> 24/7 roadside assistance</li>
+                        <li><i class="fas fa-check"></i> Flexible rental terms</li>
+                        <li><i class="fas fa-check"></i> Competitive pricing with no hidden fees</li>
+                        <li><i class="fas fa-check"></i> Professional, multilingual staff</li>
+                    </ul>
+                </div>
+                
+                <div class="about-section">
+                    <h3>Our Commitment</h3>
+                    <p>We're committed to providing environmentally conscious travel options, with a growing fleet of hybrid and electric vehicles. Our dedication to sustainability goes hand in hand with our promise to deliver excellence in service and vehicle quality.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Modal -->
+    <div id="contactModal" class="modal contact-modal">
+        <div class="modal-content contact-modal-content">
+            <span class="close">&times;</span>
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-section">
+                    <h3><i class="fas fa-building"></i> Head Office</h3>
+                    <p>123 Westminster Bridge Road<br>
+                       London, SE1 7HR<br>
+                       United Kingdom</p>
+                </div>
+
+                <div class="contact-section">
+                    <h3><i class="fas fa-phone"></i> Phone Numbers</h3>
+                    <p>UK Toll-Free: 0800 123 4567<br>
+                       International: +44 20 7123 4567<br>
+                       24/7 Support: +44 20 7123 4568</p>
+                </div>
+
+                <div class="contact-section">
+                    <h3><i class="fas fa-envelope"></i> Email</h3>
+                    <p>General Enquiries: info@rent-a-car.uk<br>
+                       Bookings: bookings@rent-a-car.uk<br>
+                       Support: support@rent-a-car.uk</p>
+                </div>
+
+                <div class="contact-section">
+                    <h3><i class="fas fa-clock"></i> Business Hours</h3>
+                    <p>Monday - Friday: 8:00 AM - 8:00 PM<br>
+                       Saturday: 9:00 AM - 6:00 PM<br>
+                       Sunday: 10:00 AM - 4:00 PM<br>
+                       Bank Holidays: 10:00 AM - 4:00 PM</p>
+                </div>
+
+                <div class="contact-section social-links-section">
+                    <h3><i class="fas fa-share-alt"></i> Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Rent-a-Car</h3>
+                <p>Your premium car rental service</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@rent-a-car.com</p>
+                <p>Phone: (555) 123-4567</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Rent-a-Car. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

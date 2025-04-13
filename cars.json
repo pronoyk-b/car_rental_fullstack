@@ -1,0 +1,334 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "name": "Mercedes S-Class",
+      "category": "luxury",
+      "price": 150,
+      "image": "https://images.unsplash.com/photo-1549399542-7e8f2e928464",
+      "features": {
+        "seats": 5,
+        "transmission": "Automatic"
+      }
+    },
+    {
+      "id": 2,
+      "name": "BMW 7 Series",
+      "category": "luxury",
+      "price": 140,
+      "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e",
+      "features": {
+        "seats": 5,
+        "transmission": "Automatic"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Audi R8",
+      "category": "sports",
+      "price": 220,
+      "image": "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a",
+      "features": {
+        "seats": 2,
+        "transmission": "Automatic"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Porsche 911",
+      "category": "sports",
+      "price": 200,
+      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+      "features": {
+        "seats": 2,
+        "transmission": "Manual"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Range Rover Sport",
+      "category": "suv",
+      "price": 170,
+      "image": "https://images.unsplash.com/photo-1536148935331-408321065b18",
+      "features": {
+        "seats": 7,
+        "transmission": "Automatic"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Tesla Model S",
+      "category": "luxury",
+      "price": 180,
+      "image": "https://images.unsplash.com/photo-1560958089-b8a1929cea89",
+      "features": {
+        "seats": 5,
+        "transmission": "Automatic"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Lamborghini Huracan",
+      "category": "sports",
+      "price": 350,
+      "image": "https://images.unsplash.com/photo-1580414057403-c5f451f30e1c",
+      "features": {
+        "seats": 2,
+        "transmission": "Automatic"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Rolls Royce Phantom",
+      "category": "luxury",
+      "price": 450,
+      "image": "https://images.unsplash.com/photo-1631295868223-63265b40d9cc",
+      "features": {
+        "seats": 5,
+        "transmission": "Automatic"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Bentley Continental GT",
+      "category": "luxury",
+      "price": 320,
+      "image": "https://images.unsplash.com/photo-1580273916550-e323be2ae537",
+      "features": {
+        "seats": 4,
+        "transmission": "Automatic"
+      }
+    },
+    {
+      "id": 10,
+      "name": "BMW X5",
+      "category": "suv",
+      "price": 150,
+      "image": "https://images.unsplash.com/photo-1556189250-72ba954cfc2b",
+      "features": {
+        "seats": 7,
+        "transmission": "Automatic"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Audi Q7",
+      "category": "suv",
+      "price": 160,
+      "image": "https://images.unsplash.com/photo-1606664919526-31eb2e7adcc1",
+      "features": {
+        "seats": 7,
+        "transmission": "Automatic"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Mercedes GLE",
+      "category": "suv",
+      "price": 165,
+      "image": "https://images.unsplash.com/photo-1617531653332-bd46c24f2068",
+      "features": {
+        "seats": 5,
+        "transmission": "Automatic"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Ford Mustang",
+      "category": "sports",
+      "price": 130,
+      "image": "https://images.unsplash.com/photo-1584345604476-8ec5e12e42dd",
+      "features": {
+        "seats": 4,
+        "transmission": "Manual"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Chevrolet Camaro",
+      "category": "sports",
+      "price": 125,
+      "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d",
+      "features": {
+        "seats": 4,
+        "transmission": "Manual"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Toyota Camry",
+      "category": "economy",
+      "price": 70,
+      "image": "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb",
+      "features": {
+        "seats": 5,
+        "transmission": "Automatic"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Honda Accord",
+      "category": "economy",
+      "price": 75,
+      "image": "https://images.unsplash.com/photo-1606664919526-31eb2e7adcc1",
+      "features": {
+        "seats": 5,
+        "transmission": "Automatic"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Nissan GT-R",
+      "category": "sports",
+      "price": 280,
+      "image": "https://images.unsplash.com/photo-1580273916550-e323be2ae537",
+      "features": {
+        "seats": 4,
+        "transmission": "Automatic"
+      }
+    },
+    {
+      "id": 18,
+      "name": "Porsche Cayenne",
+      "category": "suv",
+      "price": 190,
+      "image": "https://images.unsplash.com/photo-1536148935331-408321065b18",
+      "features": {
+        "seats": 5,
+        "transmission": "Automatic"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Maserati Ghibli",
+      "category": "luxury",
+      "price": 230,
+      "image": "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a",
+      "features": {
+        "seats": 5,
+        "transmission": "Automatic"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Jaguar F-Type",
+      "category": "sports",
+      "price": 210,
+      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+      "features": {
+        "seats": 2,
+        "transmission": "Automatic"
+      }
+    },
+    {
+      "id": 21,
+      "name": "Lexus LS",
+      "category": "luxury",
+      "price": 190,
+      "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e",
+      "features": {
+        "seats": 5,
+        "transmission": "Automatic"
+      }
+    },
+    {
+      "id": 22,
+      "name": "Audi RS7",
+      "category": "sports",
+      "price": 240,
+      "image": "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a",
+      "features": {
+        "seats": 4,
+        "transmission": "Automatic"
+      }
+    },
+    {
+      "id": 23,
+      "name": "BMW M4",
+      "category": "sports",
+      "price": 200,
+      "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e",
+      "features": {
+        "seats": 4,
+        "transmission": "Manual"
+      }
+    },
+    {
+      "id": 24,
+      "name": "Mercedes AMG GT",
+      "category": "sports",
+      "price": 290,
+      "image": "https://images.unsplash.com/photo-1549399542-7e8f2e928464",
+      "features": {
+        "seats": 2,
+        "transmission": "Automatic"
+      }
+    },
+    {
+      "id": 25,
+      "name": "Porsche Panamera",
+      "category": "luxury",
+      "price": 260,
+      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+      "features": {
+        "seats": 4,
+        "transmission": "Automatic"
+      }
+    },
+    {
+      "id": 26,
+      "name": "Land Rover Defender",
+      "category": "suv",
+      "price": 180,
+      "image": "https://images.unsplash.com/photo-1536148935331-408321065b18",
+      "features": {
+        "seats": 7,
+        "transmission": "Automatic"
+      }
+    },
+    {
+      "id": 27,
+      "name": "Aston Martin DB11",
+      "category": "sports",
+      "price": 400,
+      "image": "https://images.unsplash.com/photo-1580414057403-c5f451f30e1c",
+      "features": {
+        "seats": 2,
+        "transmission": "Automatic"
+      }
+    },
+    {
+      "id": 28,
+      "name": "Ferrari 488",
+      "category": "sports",
+      "price": 450,
+      "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888",
+      "features": {
+        "seats": 2,
+        "transmission": "Automatic"
+      }
+    },
+    {
+      "id": 29,
+      "name": "McLaren 720S",
+      "category": "sports",
+      "price": 500,
+      "image": "https://images.unsplash.com/photo-1580414057403-c5f451f30e1c",
+      "features": {
+        "seats": 2,
+        "transmission": "Automatic"
+      }
+    },
+    {
+      "id": 30,
+      "name": "Bugatti Chiron",
+      "category": "sports",
+      "price": 1000,
+      "image": "https://images.unsplash.com/photo-1580414057403-c5f451f30e1c",
+      "features": {
+        "seats": 2,
+        "transmission": "Automatic"
+      }
+    }
+  ]
+}
